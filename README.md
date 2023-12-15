@@ -1,4 +1,5 @@
-# Git and GitHub Exercise for Beginners
+# Galti-Se-Mistake
+A repository used for our "Good First Bug" Sessions where we walk the participants through the process of contributions on a Git Version control environment.
 
 ## Objective
 
@@ -45,13 +46,9 @@ The objective of this exercise is to introduce beginners to basic Git and GitHub
 
 3. Add your name to the file, following the example:
 
-    ```markdown
-    ## Contributors
-
-    - Your Name
-    ```
-
-   Replace "Your Name" with your actual name.
+```markdown
+- [Name](Link to your GitHub Profile)
+```
 
 ### Step 5: Commit Your Changes
 
