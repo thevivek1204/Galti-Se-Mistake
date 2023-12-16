@@ -4,6 +4,39 @@ A repository used for our "Good First Bug" Sessions where we walk the participan
 ## Objective
 
 The objective of this exercise is to introduce beginners to basic Git and GitHub commands. By completing this exercise, participants will gain hands-on experience with version control and collaboration using Git and GitHub.
+## Structure Overview
+
+### Initialization
+If we decide to initialize a new repository, we need to use the git init command. It turns the current directory into a Git repository and starts tracking its content:
+
+```bash
+$ mkdir simple-repo; cd simple-repo; git init
+Initialized empty Git repository in /simple-repo/.git/
+```
+Git also creates a hidden directory called .git in it. This directory stores all the objects and refs that Git creates and uses as part of our project’s history. 
+
+After that, in most cases, we want to connect our already created repository with a remote one. We use the git remote command to manage remote links for the current repository:
+
+```bash
+$ git remote add origin https://github.com/mukticommunity/tutorials.git
+```
+
+We’ve just added a new remote called origin and connected it to the official MUKTI GitHub repository.
+
+### Workflow
+
+Our local repository consists of three different trees maintained by Git.
+
+The first one is the **Working Directory**, which holds the actual version of files.
+
+After making our changes to the files, we can move the files into **Index**, which acts as a staging area. We do this using the git add command. Files in Index begin to be tracked by Git.
+
+Finally, we can apply and save our changes into the **Local Repository **using the git commit command. Committing the changes updates the repository’s HEAD, which always points to the last commit we’ve made.
+
+Those three steps are used to maintain the local changes. But as we know, the repository may also contain an external source. The last step is to synchronize both repositories and publish our changes.
+
+![image](https://github.com/MuktiCommunity/Galti-Se-Mistake/assets/152704361/43ebc787-0d57-489c-a3a0-4b361dbe8d77)
+
 
 ## Instructions
 
